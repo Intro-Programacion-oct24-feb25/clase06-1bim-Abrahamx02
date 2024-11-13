@@ -42,6 +42,8 @@ public class EjemploCadenas02 {
                 pais);
         
         System.out.printf("%s", cadenaFinal);
+        // en string.format se usa para ir acumulando informacion ya ordenada en 
+        // una variable en  si 
         
     }
 }
