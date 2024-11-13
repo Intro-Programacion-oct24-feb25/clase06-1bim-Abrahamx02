@@ -18,6 +18,7 @@ public class Ejemplo02 {
         //      0123456
         char letra = pais.charAt(7);
         System.out.printf("%s\n", letra);
-        
+        // entonces .charAt es para extraer un caracter en funcion del indice
+        // se cuenta desde 0
     }
 }
