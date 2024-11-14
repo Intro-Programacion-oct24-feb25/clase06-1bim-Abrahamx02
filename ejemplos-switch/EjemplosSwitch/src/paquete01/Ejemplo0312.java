@@ -29,20 +29,26 @@ public class Ejemplo0312 {
         String nombre = entrada.nextLine();
 
         // nombre = "atacames"
-         nombre= nombre.toUpperCase();
+         nombre= nombre.toLowerCase();
+         String nombre2 = nombre.substring(0,); /* el substring permite
+         utilizar  la variable a un string por un momento para poder remplazar a
+         un chart y utilizar el toUpperCase()
+         
+        
+                                                  */
         char valor = nombre.charAt(0); // obtener el primer caracter de una
                                        // cadena
         //  L   o   j   a
         //  0   1   2   3
         switch(valor){
-            case 'A':
-            case 'E':
-            case 'I':
-            case 'O':
-            case 'U':
+            case 'a':
+            case 'e':
+            case 'i':
+            case 'o':
+            case 'u':
            
                 System.out.printf("Nombre con inicial %s de %s\n", 
-                        valor, nombre.toLowerCase());
+                        nombre2.toUpperCase(), nombre.toLowerCase());
                 break;
             
           
