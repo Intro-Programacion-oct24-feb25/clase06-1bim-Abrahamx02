@@ -27,24 +27,20 @@ public class Ejemplo01 {
         
         switch(cadena){
             case "LUNES":
-                
-                System.out.printf("%s", cadena);
+               System.out.printf("%s", cadena);
                 break;
             
             case "MARTES":
-                
-                System.out.printf("%s", cadena);
+                 System.out.printf("%s", cadena);
                 break;
             
             
             case "VIERNES":
-                
-                System.out.printf("%s", cadena);
+                 System.out.printf("%s", cadena);
                 break;
             
             case "DOMINGO":
-               
-                System.out.printf("%s, es el séptimo día "
+                 System.out.printf("%s, es el séptimo día "
                         + "de la semana", cadena);
                 break;
                 
